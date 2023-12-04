@@ -3,7 +3,7 @@ import { StaticImageData } from "next/image";
 export type Testimonial = {
     id: number;
   name: string;
-  designation: StaticImageData;
-  image: string;
+  designation: string;
+  image: StaticImageData;
   content: string;
 };
